@@ -46,7 +46,7 @@ main {
     max-width: 1200px;
     width: 100%;
     margin: auto;
-    height: 2000px;
+    height: 2600px;
     display: flex;
     flex-direction: column;
 
@@ -126,5 +126,17 @@ a:hover {
 }
 
 .education-info-container > p {
+    font-size: 28px;
+}
+
+.english-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.english-info-container > p {
     font-size: 28px;
 }
