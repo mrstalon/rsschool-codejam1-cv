@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgba(8, 40, 65 , 1);
+}
+
+.my-photo-img {
+    width: 40%;
+    height: 100%;
+}
+
+.name-container {
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-container > h1 {
+    margin-top: 5px;
+}
+
+.name-container > h4 {
+    margin-bottom: 0px;
+}
+
+main {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+}
