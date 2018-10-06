@@ -140,3 +140,28 @@ a:hover {
 .english-info-container > p {
     font-size: 28px;
 }
+
+footer {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+
+    background-color: rgba(8, 40, 65 , 1);
+}
+
+footer > h1 {
+    margin: 10px auto;
+}
+
+.contacts-container {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+}
