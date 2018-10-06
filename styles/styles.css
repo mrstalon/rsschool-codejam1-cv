@@ -62,11 +62,12 @@ main {
     font-size: 25px;
 }
 
-.examples-heading {
+.heading {
     margin-top: 70px;
     margin-bottom: 0px;
 
     font-size: 45px;
+    color: rgb(15, 63, 99);
 }
 
 .code-examples-container {
@@ -112,12 +113,18 @@ a:hover {
     margin: 0 auto;
 }
 
-.experience-heading {
-    margin-top: 70px;
-
-    font-size: 45px;
+.experience-container > p {
+    font-size: 28px;
 }
 
-.experience-container > p {
+.education-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.education-info-container > p {
     font-size: 28px;
 }
