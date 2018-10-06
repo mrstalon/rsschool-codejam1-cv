@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgba(8, 40, 65 , 1);
+}
+
+.my-photo-img {
+    width: 40%;
+    height: 100%;
+}
+
+.name-container {
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-container > h1 {
+    margin-top: 5px;
+}
+
+.name-container > h4 {
+    margin-bottom: 0px;
+}
+
+.summary-container {
+    margin-top: 100px;
+    font-size: 17px;
+}
+
+main {
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+    height: 2650px;
+    display: flex;
+    flex-direction: column;
+
+    color: black;
+}
+
+.skills-package-container {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.skills-package-container > ul {
+    font-size: 25px;
+}
+
+.heading {
+    margin-top: 70px;
+    margin-bottom: 0px;
+
+    font-size: 45px;
+    color: rgb(15, 63, 99);
+}
+
+.code-examples-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.example-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+a {
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 5px;
+
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+
+    background-color: rgba(8, 40, 65 , 1);
+}
+
+a:hover {
+    background-color: rgb(17, 77, 121);
+
+    transition: 0.5s;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.experience-container > p {
+    font-size: 28px;
+}
+
+.education-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.education-info-container > p {
+    font-size: 28px;
+}
+
+.english-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.english-info-container > p {
+    font-size: 28px;
+}
+
+footer {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+
+    background-color: rgba(8, 40, 65 , 1);
+}
+
+footer > h1 {
+    margin: 10px auto;
+}
+
+.contacts-container {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+}
